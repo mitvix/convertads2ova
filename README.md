@@ -7,8 +7,6 @@ Script para conversão de versão do vAppliance AWS Application Discovery Servic
 Antes de continuar baixe a última versão do VMware-ovftool-XXX-lin.x86_64.bundle.
 https://customerconnect.vmware.com/downloads/get-download?downloadGroup=OVFTOOL441
 
-2024/03/23 - convertadsova.sh v0.2 <alexmanfrin@gmail.com>
-
 Use ./convertadsova.sh nome_do_virtual_appliance.ova
 
 Exemplo: 
@@ -30,8 +28,8 @@ Checksum ApplicationDiscoveryServiceAgentlessCollector_sha1_vmx10.ova
 MD5: a1ee528d0f83defbbae2f179c4ebe7c5  
 SHA1: 0390ea451069272593e4738db5bae202ab513ad0 
 
-
-
+# 2024/03/23 - convertadsova.sh v0.2 <alexmanfrin@gmail.com>
+# Linkedin - https://www.linkedin.com/in/alexandermanfrin/
 
 
 
