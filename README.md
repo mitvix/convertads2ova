@@ -2,7 +2,7 @@
 
 # Overview
 
-Script para conversão de versão do vAppliance AWS Application Discovery Service (ADS) para sistemas VMware legados como VMware ESXi 5.5 e inferiores.
+[ESTUDO DE CASO] Script para conversão de versão do vAppliance AWS Application Discovery Service (ADS) para sistemas VMware legados como VMware ESXi 5.5 e inferiores.
 
 O virtual appliance do EDS da AWS é compilado na versão de hardware da vmware de número 11 (vmx-11). Essa versão de hardware virtual pode não ser compatível com a versão do VMware vSphere que você tem instalado em seu datacenter. Para consultar o Hardware compatibility version acesse https://kb.vmware.com/s/article/2007240#. 
 
