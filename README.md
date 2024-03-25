@@ -6,7 +6,7 @@ Script para conversão de versão do vAppliance AWS Application Discovery Servic
 
 O virtual appliance do EDS da AWS é compilado na versão de hardware da vmware de número 11 (vmx-11). Essa versão de hardware virtual pode não ser compatível com a versão do VMware vSphere que você tem instalado em seu datacenter. Para consultar o Hardware compatibility version acesse https://kb.vmware.com/s/article/2007240#. 
 
-Este script tem a intenção de automatizar o processo de alteração do hardware virtual da versão 11 para a versão 10 e alterar o algoritmo de checagem sha256 para sha1, compatíveis com ESXi na versão 5.5.
+Este script tem a intenção de automatizar o processo de alteração do hardware virtual da versão 11 para a versão 10 e alterar o algoritmo de checagem sha256 para sha1, compatíveis com ESXi na versão 5.5. A sequência do script segue o que foi colocado pelo <a href="https://communities.vmware.com/t5/user/viewprofilepage/user-id/1233325>abhilashhb</a> no fórum da VMware em <a href="https://communities.vmware.com/t5/ESXi-Discussions/Import-OVF-Template-Unsupported-hardware-family-vmx-10/td-p/2696817">Import OVF Template - Unsupported hardware family 'vmx-10'</a>
 
 
 # Uso
