@@ -17,6 +17,8 @@ Antes de continuar baixe a última versão do VMware-ovftool-XXX-lin.x86_64.bund
 
 Baixe o script shell/convertads2ova.sh
 
+[https://github.com/mitvix/convertads2ova.git](https://github.com/mitvix/convertads2ova/archive/refs/heads/main.zip)
+
 Use ./convertadsova.sh nome_do_virtual_appliance.ova
 
 Exemplo:
