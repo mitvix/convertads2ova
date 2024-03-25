@@ -23,7 +23,7 @@ ________________________________________________________________________________
 Link download AWS ADS <a href="https://s3.us-west-2.amazonaws.com/aws.agentless.discovery.collector.bundle/releases/latest/ApplicationDiscoveryServiceAgentlessCollector.ova" target="_blank">ApplicationDiscoveryServiceAgentlessCollector.ova</a>
 Está com preguiça de fazer a conversão, baixe a imagem na versão de hardware vmx10 no link abaixo:
 
-<a href="https://hitssbr-my.sharepoint.com/:u:/r/personal/alexander_manfrin_globalhitss_com_br/Documents/ETICE_ZPE-ADS_Image/ApplicationDiscoveryServiceAgentlessCollector_sha1_vmx10.ova?csf=1&web=1&e=8gj8zT">Download versão hardware vmx-10></a>
+<a href="https://hitssbr-my.sharepoint.com/:u:/r/personal/alexander_manfrin_globalhitss_com_br/Documents/ETICE_ZPE-ADS_Image/ApplicationDiscoveryServiceAgentlessCollector_sha1_vmx10.ova?csf=1&web=1&e=8gj8zT">Download versão hardware vmx-10</a>
 
 Checksum ApplicationDiscoveryServiceAgentlessCollector_sha1_vmx10.ova
 
