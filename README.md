@@ -15,10 +15,11 @@ Antes de continuar baixe a última versão do VMware-ovftool-XXX-lin.x86_64.bund
 
   https://customerconnect.vmware.com/downloads/get-download?downloadGroup=OVFTOOL441
 
+Baixe o script shell/convertads2ova.sh
+
 Use ./convertadsova.sh nome_do_virtual_appliance.ova
 
-
-  Baixe o script shell/convertads2ova.sh
+Exemplo:
 
   $ chmod +x convertadsova.sh
 
