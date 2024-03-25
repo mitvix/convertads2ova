@@ -25,12 +25,10 @@ Está com preguiça de fazer a conversão, baixe a imagem na versão de hardware
 
 <a href="https://hitssbr-my.sharepoint.com/:u:/r/personal/alexander_manfrin_globalhitss_com_br/Documents/ETICE_ZPE-ADS_Image/ApplicationDiscoveryServiceAgentlessCollector_sha1_vmx10.ova?csf=1&web=1&e=8gj8zT">Download versão hardware vmx-10></a>
 
-MD5
+Checksum ApplicationDiscoveryServiceAgentlessCollector_sha1_vmx10.ova
 
-a1ee528d0f83defbbae2f179c4ebe7c5  ApplicationDiscoveryServiceAgentlessCollector_sha1_vmx10.ova
-
-SHA1
-0390ea451069272593e4738db5bae202ab513ad0  ApplicationDiscoveryServiceAgentlessCollector_sha1_vmx10.ova
+MD5: a1ee528d0f83defbbae2f179c4ebe7c5  
+SHA1: 0390ea451069272593e4738db5bae202ab513ad0 
 
 
 
