@@ -1,6 +1,6 @@
 # convertads2ova.sh
 
-# Este é o script de conversão de vAppliance para sistemas VMware legados
+# Script de conversão de vAppliance AWS para sistemas VMware legados
 
 Script para conversão de versão do vAppliance AWS Application Discovery Service (ADS) para sistemas VMware legados como VMware ESXi 5.5 e inferiores
 
