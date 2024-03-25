@@ -2,7 +2,12 @@
 
 # Overview
 
-Script para conversão de versão do vAppliance AWS Application Discovery Service (ADS) para sistemas VMware legados como VMware ESXi 5.5 e inferiores
+Script para conversão de versão do vAppliance AWS Application Discovery Service (ADS) para sistemas VMware legados como VMware ESXi 5.5 e inferiores.
+
+O virtual appliance do EDS da AWS é compilado na versão de hardware da vmware de número 10 (vmx-10). Essa versão der hardware virtual pode não ser compatível com a versão do VMware vSphere que você tem instalado em seu datacenter. Para consultar o Hardware compatibility version acesse https://kb.vmware.com/s/article/2007240#. Este script tem a intenção de automatizar o processo de alteração do hardware virtual da versão 11 para a versão 10 e alterar o algoritmo de checagem sha256 para sha1, compatíveis com ESXi na versão 5.5.
+
+
+# Uso
 
 Antes de continuar baixe a última versão do VMware-ovftool-XXX-lin.x86_64.bundle.
 
@@ -10,7 +15,6 @@ Antes de continuar baixe a última versão do VMware-ovftool-XXX-lin.x86_64.bund
 
 Use ./convertadsova.sh nome_do_virtual_appliance.ova
 
-# Uso
 
   Baixe o script shell/convertads2ova.sh
 
