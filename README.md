@@ -11,8 +11,9 @@ Este script (bash e Go) tem a intenção de automatizar o processo de alteraçã
 
 # Uso
 
-Em sistemas Linux utilize a versão shell do script ou a versão compilada em go ou a partir do código fonte com "go run"
-Em sistemas Windows utilize a versão compilada em go ou a partir do código fonte com "go run"
+Em sistemas Linux utilize a versão shell do script ou a versão compilada em go
+
+Em sistemas Windows utilize a versão compilada em go
 
 Antes de continuar baixe a última versão do VMware-ovftool-XXX-lin.x86_64.bundle.
 
