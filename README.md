@@ -6,10 +6,13 @@
 
 O virtual appliance do EDS da AWS é compilado na versão de hardware da vmware de número 11 (vmx-11). Essa versão de hardware virtual pode não ser compatível com a versão do VMware vSphere que você tem instalado em seu datacenter. Para consultar o Hardware compatibility version acesse https://kb.vmware.com/s/article/2007240#. 
 
-Este script tem a intenção de automatizar o processo de alteração do hardware virtual da versão 11 para a versão 10 e alterar o algoritmo de checagem sha256 para sha1, compatíveis com ESXi na versão 5.5. A sequência do script segue o que foi colocado pelo <a href="https://communities.vmware.com/t5/user/viewprofilepage/user-id/1233325">abhilashhb</a> em ‎14-01-2014 no fórum da VMware em <a href="https://communities.vmware.com/t5/ESXi-Discussions/Import-OVF-Template-Unsupported-hardware-family-vmx-10/td-p/2696817">Import OVF Template - Unsupported hardware family 'vmx-10'</a>
+Este script (bash e Go) tem a intenção de automatizar o processo de alteração do hardware virtual da versão 11 para a versão 10 e alterar o algoritmo de checagem sha256 para sha1, compatíveis com ESXi na versão 5.5. A sequência do script segue o que foi colocado pelo <a href="https://communities.vmware.com/t5/user/viewprofilepage/user-id/1233325">abhilashhb</a> em ‎14-01-2014 no fórum da VMware em <a href="https://communities.vmware.com/t5/ESXi-Discussions/Import-OVF-Template-Unsupported-hardware-family-vmx-10/td-p/2696817">Import OVF Template - Unsupported hardware family 'vmx-10'</a>
 
 
 # Uso
+
+Em sistemas Linux utilize a versão shell do script ou a versão compilada em go ou a partir do código fonte com "go run"
+Em sistemas Windows utilize a versão compilada em go ou a partir do código fonte com "go run"
 
 Antes de continuar baixe a última versão do VMware-ovftool-XXX-lin.x86_64.bundle.
 
@@ -19,9 +22,26 @@ Baixe o script shell/convertads2ova.sh
 
 [https://github.com/mitvix/convertads2ova.git](https://github.com/mitvix/convertads2ova/archive/refs/heads/main.zip)
 
+Shell 
+
 Use ./convertadsova.sh nome_do_virtual_appliance.ova
 
-Exemplo:
+Go 
+
+Em sistemas Linux use: 
+
+./convertadsova nome_do_virtual_appliance.ova
+
+Em sistemas Windows use: 
+
+./convertadsova.exe nome_do_virtual_appliance.ova
+
+A partir do código fonte convertads2ova.go use:
+
+go run convertads2ova.go nome_do_virtual_appliance.ova
+
+
+Exemplo shell:
 
   $ chmod +x convertadsova.sh
 
