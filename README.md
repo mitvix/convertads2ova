@@ -24,7 +24,9 @@ Baixe o script shell/convertads2ova.sh
 
 Shell 
 
+```
 Use ./convertadsova.sh nome_do_virtual_appliance.ova
+```
 
 Go 
 
